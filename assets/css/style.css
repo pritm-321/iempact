@@ -1194,7 +1194,7 @@ h6 {
 
 #footer .footer-top {
   padding: 30px;
-  background: url("/assets/img/footertop.png");
+  background: url(../img/footertop.png);
   background-repeat: no-repeat;
 }
 #footer .footer-contact {
@@ -1209,7 +1209,7 @@ h6 {
   text-align: center;
 }
 #footer .bottom {
-  background: url("/assets/img/footerbottom.png");
+  background: url(../img/footerbottom.png);
 }
 
 #footer .footer-top h1 {
@@ -1302,6 +1302,6 @@ h6 {
 }
 @media (max-width: 468px) {
   #footer .footer-top {
-    background: url("/assets/img/footermob.png");
+    background: url(../img/footermob.png);
   }
 }
