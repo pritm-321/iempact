@@ -882,7 +882,15 @@ h6 {
 
 
 /* events */
-
+#events .cs{
+  position: relative;
+  left: 15%;
+    font-size: 100px;
+    background: -webkit-linear-gradient( #26653e,#e3c132);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  
+}
 #content {
   margin-top: 10px;
   margin-bottom: 10px;
