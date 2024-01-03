@@ -428,7 +428,6 @@ h6 {
   .mobile-nav-toggle {
     display: block;
   }
-
   .navbar ul {
     display: none;
   }
@@ -533,17 +532,20 @@ h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: url(../img/hero-bg.png) top center;
-  background-size: cover;
-  overflow: hidden;
+ 
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
   position: relative;
 }
 
 @media (min-width: 1024px) {
   #hero {
-    background-attachment: fixed;
+    background-image: url('../img/Frame\ 22.png');
+    /* background-attachment:scroll; */
   }
 }
+
 
 #hero:before {
   content: "";
@@ -570,8 +572,15 @@ h6 {
 }
 
 @media (max-width: 991px) {
-  #hero .hero-container {
-    top: 70px;
+  #hero{
+      background-image: url('../img/iPhone\ 13\ &\ 14\ -\ 1.png');
+    /* top: 70px; */
+  }
+}
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+  #hero{
+      background-image: url('../img/iPad\ Pro\ 11_\ -\ 1.png');
+    /* top: 70px; */
   }
 }
 
