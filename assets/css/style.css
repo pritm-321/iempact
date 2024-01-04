@@ -1016,14 +1016,14 @@ h6 {
 #dates {
   /* background: linear-gradient(rgba(0, 142, 99, 0.1), rgba(0, 0, 0, 0.1)),
     url(../public/images/dates-bg.jpg) fixed center center; */
-    background: rgb(0, 0, 0);
-    background: linear-gradient(127deg, #b61823d0 25%, #e3c132 50%, #3138b7 75%);
+    background-image: url('../img/footerbottom.png');
+   /*  background: linear-gradient(127deg, #b61823d0 25%, #e3c132 50%, #3138b7 75%); */
   background-size: cover;
   padding: 60px 0;
 }
 
 #dates h3 {
-  color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
   font-size: 28px;
   font-weight: 700;
 }
@@ -1214,7 +1214,7 @@ h6 {
 
 #footer .footer-top {
   padding: 30px;
-  background: url(../img/footertop.png);
+  background: url(../img/footerbottom.png);
   background-repeat: no-repeat;
 }
 #footer .footer-contact {
