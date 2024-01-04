@@ -1016,7 +1016,7 @@ h6 {
 #dates {
   /* background: linear-gradient(rgba(0, 142, 99, 0.1), rgba(0, 0, 0, 0.1)),
     url(../public/images/dates-bg.jpg) fixed center center; */
-    background: rgb(255,153,51);
+    background: rgb(0, 0, 0);
     background: linear-gradient(127deg, #b61823d0 25%, #e3c132 50%, #3138b7 75%);
   background-size: cover;
   padding: 60px 0;
