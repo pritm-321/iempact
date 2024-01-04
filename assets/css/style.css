@@ -93,7 +93,7 @@ h6 {
 
 .back-to-top.active {
   visibility: visible;
-  opacity: 1;
+  opacity: 0.4;
 }
 
 /* Sections Header
@@ -384,7 +384,7 @@ h6 {
 }
 
 .navbar .dropdown:hover>ul {
-  opacity: 1;
+  opacity: 0.4;
   top: 100%;
   visibility: visible;
 }
@@ -396,7 +396,7 @@ h6 {
 }
 
 .navbar .dropdown .dropdown:hover>ul {
-  opacity: 1;
+  opacity: 0.6;
   top: 0;
   left: 100%;
   visibility: visible;
@@ -498,7 +498,7 @@ h6 {
   margin: 10px 20px;
   padding: 10px 0;
   z-index: 99;
-  opacity: 1;
+  opacity: 0.2;
   visibility: visible;
   background: #fff;
   box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
@@ -532,11 +532,13 @@ h6 {
 #hero {
   width: 100%;
   height: 100vh;
- 
-  background-size: contain;
-  background-position: center;
+  background-size: cover;
+  background-position: top;
+  background-position-x: center;
+  background-position-y:top ;
   background-repeat: no-repeat;
   position: relative;
+  opacity: 1;
 }
 
 @media (min-width: 1024px) {
@@ -549,7 +551,8 @@ h6 {
 
 #hero:before {
   content: "";
-  background: rgba(6, 12, 34, 0.8);
+ /*  background: rgba(0, 0, 0, 0.8); 
+ controlled the film over the background image*/
   position: absolute;
   bottom: 0;
   top: 0;
@@ -654,7 +657,7 @@ h6 {
   animation-iteration-count: infinite;
   -webkit-animation-timing-function: steps;
   animation-timing-function: steps;
-  opacity: 1;
+  opacity: 0.6;
   border-radius: 50%;
   border: 2px solid rgba(163, 163, 163, 0.4);
   top: -15%;
@@ -895,7 +898,7 @@ h6 {
   position: relative;
   left: 15%;
     font-size: 100px;
-    background: -webkit-linear-gradient( #26653e,#e3c132);
+    background: -webkit-linear-gradient( #263465,#e3c132);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   
@@ -975,7 +978,7 @@ h6 {
   line-height: 22px;
 }
 .e5:hover #e5bk{
-  opacity:0.9;
+  opacity:0.8;
   cursor: pointer;
 }
 
@@ -988,7 +991,7 @@ h6 {
 }
 @media(max-width:468px){
   .e5:hover .text5{
-    opacity:1;
+    opacity:0.6;
     position: absolute;
     top: 7%;
     margin-left: 20px;
@@ -1014,13 +1017,13 @@ h6 {
   /* background: linear-gradient(rgba(0, 142, 99, 0.1), rgba(0, 0, 0, 0.1)),
     url(../public/images/dates-bg.jpg) fixed center center; */
     background: rgb(255,153,51);
-    background: linear-gradient(127deg, rgba(255,153,51,1) 25%, rgba(255,255,255,1) 50%, rgba(19,136,8,1) 75%);
+    background: linear-gradient(127deg, #b61823d0 25%, #e3c132 50%, #3138b7 75%);
   background-size: cover;
   padding: 60px 0;
 }
 
 #dates h3 {
-  color: rgb(32, 102, 222);
+  color: rgb(0, 0, 0);
   font-size: 28px;
   font-weight: 700;
 }
@@ -1081,7 +1084,7 @@ h6 {
   width: 12px;
   height: 12px;
   background-color: #fff;
-  opacity: 1;
+  opacity: 0.6;
   border: 1px solid #18d26e;
 }
 
