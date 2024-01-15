@@ -851,6 +851,7 @@ h6 {
 /* ------------------- GUEST ----------------  */
 #guest {
   position: relative;
+ 
 }
 #guest .write{
     position: relative;
@@ -867,10 +868,15 @@ h6 {
   
 }
 #guest h1,h2{
-  text-align: center;
-  font-weight: 600;
+  font-weight:bolder;
   font-size: 40px;
-  color: rgb(0, 117, 0);
+  color: rgb(40, 25, 177);
+}
+#guest .first{
+  text-align: center;
+}
+#guest .second{
+  text-align: center;
 }
 #guest h2{
   font-family: 'Dancing Script', cursive;
